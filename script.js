@@ -1,8 +1,7 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function (){
     document.getElementById('button').addEventListener('click', function(){
-      let text = document.getElementById('text').nodeValue;
-      alert('Длина текста: ' + text.length);
+      let text = document.getElementById('text').nodeValue;      
     });
   });  
 })();
